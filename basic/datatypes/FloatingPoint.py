@@ -1,10 +1,6 @@
-
-
 """
  1.
- Basic
- Float
- Operations
+ Basic Float Operations
 """
 
 a = 10.5
@@ -34,7 +30,7 @@ print(a ** b) # Exponentiation
 """
 
 num = 3.14159
-print(round(num, 2))  # Rounds to 2 decimal places
+print(round(num, 3))  # Rounds to 2 decimal places
 
 
 """
@@ -131,11 +127,6 @@ a = 0.1 + 0.2
 b = 0.3
 
 print(math.isclose(a, b, rel_tol=1e-9))  # True (compares within a small tolerance)
-
-
-
-"""
-"""
 
 
 """

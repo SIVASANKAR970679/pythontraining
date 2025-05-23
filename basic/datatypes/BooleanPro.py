@@ -9,6 +9,7 @@ print(a or b)   # True
 print(not a)    # False
 print(not b)    # True
 
+
 """
 2. Checking Even or Odd Number
 """
