@@ -3,6 +3,7 @@ print(2-1) # Subtraction - 1
 
 print(2*1)# Multiplication - 2
 print(3/2)# Division #1.5
+print(3//2)# Division #1.5
 
 print(7//4) # Floor Division 1
 
