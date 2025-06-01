@@ -61,10 +61,10 @@ print("The ascii value of a is :", ascii_x)
 
 #data types
 #Interger int () - Whole numbers 12,43.0.-12
-#floating point float () - NUmbers having a decimal point
+#floating point float () - Numbers having a decimal point
 #string str ()  - Ordered sequence of characters ('SIva', "Sankar", "Apple"
-#lists List() - unordered sequence of objects whic are kept in []
-#dictonories dict()- Unordfered key: value pairs and kept in {"name:Siva", "Age : 28"}
+#lists List() - unordered sequence of objects which are kept in []
+#dictonories dict()- Unordered key: value pairs and kept in {"name:Siva", "Age : 28"}
 #tulpes tup() - unordered immutable sequences of objects [1,2,43.21,"Siva"]
 #sets set() - unordered sets of unique objects {a,b,"}
 #booleans () - A logical value indicating true of false
