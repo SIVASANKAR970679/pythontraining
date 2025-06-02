@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a6b5b94-e931-4099-b13c-f799f41520fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythontraining20.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/datatypes/BooleanPro.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/datatypes/BooleanPro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/datatypes/FloatingPoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/datatypes/FloatingPoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/datatypes/ListPro/List/ListProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/datatypes/ListPro/List/ListProgram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/datatypes/ListPro/ListPro.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/datatypes/ListPro/ListPro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/datatypes/ListPro/Listprograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/datatypes/ListPro/Listprograms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/datatypes/ListPro/listcomprehender.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/datatypes/ListPro/listcomprehender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/printsample/doubts.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/printsample/doubts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/printsample/practice_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/printsample/practice_questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/printsample/practiceprogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/printsample/practiceprogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/printsample/printSatementExamples.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/printsample/printSatementExamples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/printsample/totalpracricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/printsample/totalpracricing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/printsample/wholenumberspractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/printsample/wholenumberspractice.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/basic/secondprogram.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xLElPRl3zappJr9vDLSiUykIiK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.BooleanPro.executor": "Run",
+    "Python.Dictionaries.executor": "Run",
+    "Python.FloatingPoint.executor": "Run",
+    "Python.ListBasic.executor": "Run",
+    "Python.ListComprehensions.executor": "Run",
+    "Python.ListPro.executor": "Run",
+    "Python.Listprograms.executor": "Run",
+    "Python.Setpro.executor": "Run",
+    "Python.Slice.executor": "Run",
+    "Python.StringPro.executor": "Run",
+    "Python.Strings.executor": "Run",
+    "Python.Wholenumber.executor": "Run",
+    "Python.booleanpractive.executor": "Run",
+    "Python.dictprograms.executor": "Run",
+    "Python.doubts.executor": "Run",
+    "Python.firstprogram.executor": "Run",
+    "Python.floatingpointpractivr.executor": "Run",
+    "Python.hotel billing program.executor": "Run",
+    "Python.listcomprehender.executor": "Run",
+    "Python.practice_questions.executor": "Run",
+    "Python.practiceprogram.executor": "Run",
+    "Python.printSatementExamples.executor": "Run",
+    "Python.printpractice.executor": "Run",
+    "Python.secondprogram.executor": "Run",
+    "Python.stringpropractice.executor": "Run",
+    "Python.totalpracricing.executor": "Run",
+    "Python.wholenumberspractice.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sri97/workspace/pythontraining",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a6b5b94-e931-4099-b13c-f799f41520fb" name="Changes" comment="" />
+      <created>1747709104723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747709104723</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic/datatypes/ListPro/ListPro.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

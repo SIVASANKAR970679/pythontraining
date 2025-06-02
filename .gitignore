@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+__pycache__/
+*.pyc
+git rm --cached -r __pycache__
+c

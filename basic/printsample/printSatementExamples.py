@@ -42,21 +42,3 @@ print('A {p} saved is a {p} earned.'.format(p='penny'))
 name = 'Tharun'
 print(f"He said his name is {name}.")
 print(f"He said his name is {name!r}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

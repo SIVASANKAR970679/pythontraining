@@ -1,29 +1,4 @@
 
-squares = {x:x**2  for x in range(10)}
-print(squares)
-
-#8. Count Word Frequencies
-text = "apple banana apple orange banana apple"
-words = text.split()
-
-# Count frequencies
-freq = {}
-for word in words:
-    freq[word] = freq.get(word, 0) + 1
-
-print(freq)
-# Output: {'apple': 3, 'banana': 2, 'orange': 1}
-
-
-#9. Sort a Dictionary by Keys or Values
-# Sort by keys
-sorted_by_keys = dict(sorted(squares.items()))
-print(sorted_by_keys)
-
-# Sort by values
-sorted_by_values = dict(sorted(squares.items(), key=lambda item: item[1]))
-print(sorted_by_values)
-
 #10 Nested Dictionaries
 nested_dict = {
     "person1": {"name": "Alice", "age": 30},
@@ -45,12 +20,6 @@ else:
     print(f"{num} is not a whole number.")
 '''
 
-
-#5. Checking If a Number is Float
-def is_float(value):
-    return isinstance(value,float)
-
-print("Entered value is a float : " , is_float(55.87))
 
 
 #10. Comparing Floating-Point Numbers Using math.isclose()

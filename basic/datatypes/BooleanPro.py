@@ -12,7 +12,7 @@ print(not b)    # True
 """
 2. Checking Even or Odd Number
 """
-num = 10
+num = 102
 is_even = num % 2 == 0  # True if even, False if odd
 
 print(is_even)  # Output: True
@@ -72,7 +72,6 @@ print(is_positive(-3)) # False
 """
 numbers = [1, 2, 3, 4, 5, 6]
 evens = [num for num in numbers if num % 2 == 0]
-
 print(evens)  # Output: [2, 4, 6]
 
 """
