@@ -37,3 +37,4 @@ print(labels)  # Output: ['Odd', 'Even', 'Odd', 'Even', 'Odd']
 # Generate a dictionary with numbers as keys and their squares as values
 squares_dict = {x: x**2 for x in range(5)}
 print(squares_dict)  # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+

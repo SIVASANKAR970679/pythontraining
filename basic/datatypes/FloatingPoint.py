@@ -3,8 +3,8 @@
  Basic Float Operations
 """
 
-a = 10.5
-b = 2.3
+a = 10
+b = 2
 
 print(a + b)  # Addition
 print(a - b)  # Subtraction
