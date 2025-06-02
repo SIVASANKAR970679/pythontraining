@@ -154,7 +154,11 @@ deep_copy["education"]["degree"] = "Master's"
 print("Original dictionary:", original_dict)
 print("Deep copy:", deep_copy)
 
+"""
+Original dictionary: {'name': 'Alice', 'age': 25, 'skills': ['Python', 'Data Science'], 'education': {'degree': "Bachelor's", 'field': 'Computer Science'}}
+Deep copy: {'name': 'Alice', 'age': 26, 'skills': ['Python', 'Data Science', 'Machine Learning'], 'education': {'degree': "Master's", 'field': 'Computer Science'}}
 
+"""
 # Creating a dictionary
 dict1 = {"name": "Krishna", "age": "27", "doy": 1992}
 

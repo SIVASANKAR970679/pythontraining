@@ -19,8 +19,23 @@ print(my_tuple[-1]) # Output: 40 (Last element)
 numbers = (1, 2, 3, 4, 5, 6)
 
 print(numbers[1:4])  # Output: (2, 3, 4)
-print(numbers[: 3])   # Output: (1, 2, 3)
+print(numbers[:3])   # Output: (1, 2, 3)
 print(numbers[::2])  # Output: (1, 3, 5) (Skipping elements)
+
+"""
+start: Index to start from (default is 0 if omitted).
+
+stop: Index to stop at (not inclusive, default is end of sequence if omitted).
+
+step: Interval between elements (default is 1).
+
+In numbers[::2]:
+start is omitted → starts from index 0
+
+stop is omitted → goes till the end of the tuple
+
+step is 2 → takes every second element
+"""
 
 
 # Unpacking a tuple
