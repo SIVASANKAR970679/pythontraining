@@ -1,16 +1,4 @@
-def get_coordinates():
-    return (10.5, 20.8)
+def multiply(a: int, b: int) -> int:
+    return a * b
 
-print(get_coordinates())
-
-printex=get_coordinates()
-print(printex)
-
-
-def get_coordinates(tupleex):
-    return tupleex
-
-print(get_coordinates((10.5, 20.8)))
-
-printex=get_coordinates((10.5, 20.8))
-print(printex)
+print(multiply(3, "4"))  # Output: 444 (no type-checking is enforced)
