@@ -317,3 +317,8 @@ print(names)
 # Delete all items
 
 '''-------------LIST COMPREHENSIONS ---------------'''
+
+#2. Check If a String is a Palindrome
+
+
+#1. Swap Two Variables Without a Temporary Variable

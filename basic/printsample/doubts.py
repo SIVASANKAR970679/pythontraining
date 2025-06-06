@@ -1,39 +1,58 @@
-
-#10 Nested Dictionaries
-nested_dict = {
-    "person1": {"name": "Alice", "age": 30},
-    "person2": {"name": "Bob", "age": 25}
-}
-
-print(nested_dict["person1"]["name"])  # Output: Alice
-
-'''
-# 1. Check if a number is a whole number
-def is_whole_number(n):
-    return n >= 0 and isinstance(n, int) #If we remove from isinstance(n,int) we are getting o/p else not remove
-
-
-num = int(input("Enter a number: "))
-if is_whole_number(num):
-    print(f"{num} is a whole number.")
-else:
-    print(f"{num} is not a whole number.")
-'''
-
-
-
-#10. Comparing Floating-Point Numbers Using math.isclose()
-
 import math
 
-a = 0.1 + 0.2
-b = 0.3
+x = 9.8
 
-print(math.isclose(a, b, rel_tol=1e-9))  # True (compares within a small tolerance)
+print(math.ceil(x))   # Rounds up (10)
+print(math.floor(x))  # Rounds down (9)
+print(math.sqrt(x))   # Square root
+print(math.pi)        # Pi value
 
-#Example 1: Using sort()
+#pop a element
+set12 = { 1,2,3,4,56,76}
+set12.pop()
+print(set12)
 
-number = [42,12,52,3,55]
-number.sort()
-print(number)
-print(number.sort())
+#Basic Annotations
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+print(greet("Alice"))  # Output: Hello, Alice!
+
+def wish(name:str):
+    return f"Hello, \t {name}"
+print(wish("Siva"))
+
+
+#Multiple Parameters
+def add(a: int, b: int) -> int:
+    return a + b
+
+print(add(5, 10))  # Output: 15
+def add(a,b):
+    return a+b
+print(add(6,6))
+
+
+def addition (a:int,b:int)->int:
+    return a+b
+print(add(43.3,32.2))
+
+
+
+sandeep_team = ["siva","bharath","srinu","naresh","rahul","laxmi","lokesh","venu"]
+siva_team = ["manoj","sateesh","sreekanth","D naresh","ramana","sivamanju","karthik","narendra","guna","sai"]
+rohin_team = ["Satish","nithya","mahesh","delli","vijay","pradeep","B karthik","Rajesh","Kishore"]
+
+tirupati_team = sandeep_team+rohin_team+siva_team
+print(tirupati_team)
+FTC_name = input("Enter the FTC name :")
+
+
+if FTC_name in sandeep_team:
+    print(f"{FTC_name} is belongs to sandeep")
+elif FTC_name in siva_team:
+    print(f"{FTC_name} is belongs to Siva team")
+elif FTC_name in rohin_team:
+    print(f"{FTC_name} is belongs to Rohin team")
+else:
+    print("Entered name is not in anyone's team. Kindly check and try again")

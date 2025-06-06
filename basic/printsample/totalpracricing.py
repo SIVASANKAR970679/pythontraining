@@ -1,117 +1,33 @@
-#----------------------sets{}--------------------
-'''numbers = {10,11,12,13}
+num = int(input("Enter a value :"))
 
-for num in numbers:
-    print(num)
-
-
-
-# Creating a set
-set = {1,2,3,4,6,5,6,7,8,9}
-
-print(set)
-#Addingan an Elements to a Set
-set.add(5)
-print(set)
-
-#Removing an Elements from a Set
-set.remove(5)
-print(set)
-set.remove(4)
-print(set)
-#discard an element from a set
-set.discard(2)
-print(set)
-#pop a element
-set.pop()
-print(set)
-#Set Operations (Union, Intersection, Difference, Symmetric Difference)
-set1 = {1,2,3,4}
-set2= {4,5,6,1}
-print(set1 | set2) # will get all values without repeat
-print(set1 & set2) # will get only repeated values
-print(set1 - set2) # will get only unique elements in set1 only
-print(set2-set1) # will get only unique elemetns in set2 only
-print(set1 ^ set2) # will get non repeated values
+if num %2==0:
+    print(f" The entered number {num } is a even number")
+else:
+    print("The entered number %s is not an even number".format(num))
 
 
-#Checking for Element Existence
-print(3 in set1)
+#2. Find Even Numbers in a List
+list = [20,43,55,12,25,532,89,90]
 
-# Iterating Through a Set
-set = {1,2,3,4,5,6,7,8,99}
-for num in set:
-    print(num)
+even_num = [num for num in list if num%2==0]
+print("The even numbers are :",even_num)
 
-fruits = {'Apple','Banana','Orange'}
-for item in fruits:
-    print(item)
+#3. Find Even Numbers in a Tuple
 
-#Finding Length of a Set
-print(len(set))
-'''
-# Converting List to Set (Removing Duplicates)
-l100 = [12,12,12,13,14,14,16,16,15,17]
-new_set = set(l100)
-print(new_set)
-  # Converts list to set, removing duplicates
-
-#Set Subset and Superset
-seta = {1,2,3,4}
-setb = {1,2,3,4,5,6}
-print(seta.issubset(setb))
-print(setb.issubset(seta))
-
-#Frozen Set (Immutable Set)
-fset =frozenset([1,2,3,4,5])
-print(fset)
-
-seta.add(5)
-print(seta)
-
-frozen = frozenset([1, 2, 3, 4])
-print(frozen)  # Output: frozenset({1, 2, 3, 4})
+tuple_numbers = (12,242,4632,3742,2,23423,6324,23,252,64,6,544,6,89)
+even_in_tuples = tuple(num for num in tuple_numbers if num%2==0)
+print(tuple_numbers)
+print(f"The even numbers are in tuples are : {even_in_tuples}")
 
 
-#-----------------------DICTIONARY--------------------------------------------------------------
+#4. Filter Even Numbers from a Set
 
-#1. Create and Print a Dictionary
-"""names = {
-    "Manju":"RG mega",
-    "Sateesh":"SVN2",
-    "Manoj":"SVN3",
-    "Naresh":"Veejay",
-    "Guna":"VYjanthi"
-}
+sets = {22,44,34,43,54,65,78,9909,81,43,56,76,78,78,98,13,15,75}
+sets_even = {num for num in sets if num%2 ==0}
+print(f"The even numbers in set are : {sets_even}")
 
-print(names)"""
-#2. Access and Modify Dictionary Elements
+#5. Extract Even Numbers from a Dictionary
 
-# Modify values
-# Add a new key-value pair
-#3. Iterate Through a Dictionary
-# Iterate through keys
-# Iterate through values
-# Iterate items through key values pair
-#4. Check if a Key Exists
-
-#5 5. Dictionary Comprehension
-
-
-
-
-
-
-#6. Merge Two Dictionaries
-
-
-# Method 1: Using the `update()` method
-
-# Method 2: Using dictionary unpacking (Python 3.9+)
-
-
-
-#7. Delete Items from a Dictionary
-
-# Remove a key-value pair
-# Delete all items
+dict = dict(a =6,b=4,c=23,d=12,e=31,p=66)
+even_dict = {key:values for key, values in dict.items() if values %2==0}
+print(even_dict)

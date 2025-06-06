@@ -1,7 +1,4 @@
 #basic operators
-from itertools import product
-from time import process_time
-from traceback import print_tb
 
 a = 3.5
 b = 1.5
