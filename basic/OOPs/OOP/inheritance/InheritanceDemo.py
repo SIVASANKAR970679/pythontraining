@@ -1,12 +1,19 @@
 # parent class
-class Parent: 
+class Parent:
+
+   def __init__(self, name, age, salary):
+      self.name = name  # public variable
+      self.__age = age  # private variable
+      self._salary = salary  # protected variable
+
    def parentMethod(self):
       print ("Calling parent method")
 
 # child class
-class Child(Parent): 
+class Child(Parent):
+
    def childMethod(self):
-      print ("Calling child method")
+      print ("Calling child method" + self._salary)
 
 # instance of child
 c = Child()  

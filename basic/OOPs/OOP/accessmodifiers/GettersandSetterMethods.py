@@ -14,9 +14,6 @@ class GettersandSetterMethods:
       self.__age=age
 
 
-   name = property(get_name, set_name, "name")
-   age = property(get_age, set_age, "age")
-
 e1=GettersandSetterMethods("Bhavana", 24)
 print ("Name:", e1.get_name(), "age:", e1.get_age())
 #e1.set_name("Archana")
